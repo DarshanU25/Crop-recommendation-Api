@@ -24,7 +24,7 @@ app.add_middleware(
 # -----------------------------
 print("Loading model and encoders...")
 
-MODEL_PATH = "models/plant_model_top30.keras"
+MODEL_PATH = "tf_model/crop_model"
 OHE_PATH = "models/onehot_encoder_top30.pkl"
 LABEL_PATH = "models/label_encoder_top30.pkl"
 
